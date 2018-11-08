@@ -1,4 +1,3 @@
-const REACT_APP_GITHUB_ACCESS_TOKEN = 'YOUR_TOKEN_HERE'
 export default class Api {
 
   fetch(path) {
@@ -8,7 +7,7 @@ export default class Api {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `bearer ${REACT_APP_GITHUB_ACCESS_TOKEN}`
+        'Authorization': `bearer ${process.env.REACT_APP_GITHUB_ACCESS_TOKEN}`
       }
     })
       .then(res => {
