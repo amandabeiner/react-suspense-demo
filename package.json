@@ -1,0 +1,29 @@
+{
+  "name": "react-suspense-demo",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "16.6.0-alpha.8af6728 - canary",
+    "react-cache": "16.6.0-alpha.8af6728 - canary",
+    "react-dom": "16.6.0-alpha.8af6728 - canary",
+    "react-draggable": "3.0.5",
+    "react-scripts": "2.0.3",
+    "scheduler": "0.10.0-alpha.8af6728 - canary",
+    "styled-components": "4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
